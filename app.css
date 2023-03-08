@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+
+body {
+background-color: brown;
+padding: 20px;
+margin: 10px;
+display: grid;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.container{
+color: white;
+flex-direction: column;
+justify-content: space-around;
+position: relative;
+}
+.input-name{
+display: grid;
+justify-content: space-around;
+
+}
+
+.text-pass{
+display: flex;
+justify-content: top;
+position: absolute;
+}
+
+.text-name{
+display: flex;
+justify-content: space-around;
+
+}
+
+.text-man{
+display: grid;
+justify-content: space-around;
+
+}
+
